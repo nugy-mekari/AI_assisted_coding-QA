@@ -1,0 +1,34 @@
+@layer pixel_reset, pixel_base, pixel_tokens, pixel_recipes, pixel_utilities;
+
+body {
+  margin: 0;
+  background: #f4f5f7;
+  font-family: Inter, 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+.card {
+  background: #fff;
+  border: 1px solid #e2e4e8;
+  border-radius: 8px;
+  padding: 16px;
+}
+table.data {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+table.data th, table.data td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid #eceef1;
+}
+table.data th {
+  color: #626b79;
+  font-weight: 600;
+  background: #fafbfc;
+}
+.num { text-align: right !important; font-variant-numeric: tabular-nums; }
